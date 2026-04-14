@@ -92,6 +92,70 @@ export default function SectionOne() {
             </Card>
           </Link>
         </div>
+        {/* gitlab + firebase */}
+        <div className="grid grid-cols-2 gap-4">
+          <Link to="https://www.facebook.com/tuanhuy.nguyen.56808/" target="_blank">
+            <Card className="h-full">
+              <CardContent className="p-3 flex items-center justify-center">
+                <div className="w-full aspect-square">
+                  <img
+                    src="/gitlab.png"
+                    alt="Facebook"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </CardContent>
+            </Card>
+          </Link>
+
+          <Link to="https://github.com/huynguyentuan03k" target="_blank">
+            <Card className="h-full">
+              <CardContent className="p-3 flex items-center justify-center">
+                <div className="w-full aspect-square">
+                  <img
+                    src="/firebase.png"
+                    alt="Github"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </CardContent>
+            </Card>
+          </Link>
+        </div>
+        {/* ===== DOKKU ===== */}
+        <Link
+          to="https://jenkins.huynguyen-nginx.io.vn/"
+          target="_blank"
+        >
+          <Card className="h-full">
+            <CardContent className="p-4 flex items-center justify-center">
+              <div className="w-full aspect-[16/9]">
+                <img
+                  src="/dokku.png"
+                  alt="Jenkins"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </CardContent>
+          </Card>
+        </Link>
+        {/* ===== CLOUDFLARE ===== */}
+        <Link
+          to="https://jenkins.huynguyen-nginx.io.vn/"
+          target="_blank"
+        >
+          <Card className="h-full">
+            <CardContent className="p-4 flex items-center justify-center">
+              <div className="w-full aspect-[16/9]">
+                <img
+                  src="/cloudflare.png"
+                  alt="Jenkins"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </CardContent>
+          </Card>
+        </Link>
       </div>
 
     </div >
