@@ -94,7 +94,7 @@ export default function SectionOne() {
         </div>
         {/* gitlab + firebase */}
         <div className="grid grid-cols-2 gap-4">
-          <Link to="https://www.facebook.com/tuanhuy.nguyen.56808/" target="_blank">
+          <Link to="https://gitlab.com/huynguyentuan03k" target="_blank">
             <Card className="h-full">
               <CardContent className="p-3 flex items-center justify-center">
                 <div className="w-full aspect-square">
@@ -108,7 +108,7 @@ export default function SectionOne() {
             </Card>
           </Link>
 
-          <Link to="https://github.com/huynguyentuan03k" target="_blank">
+          <Link to="https://firebase.google.com/docs/cloud-messaging/" target="_blank">
             <Card className="h-full">
               <CardContent className="p-3 flex items-center justify-center">
                 <div className="w-full aspect-square">
@@ -124,7 +124,7 @@ export default function SectionOne() {
         </div>
         {/* ===== DOKKU ===== */}
         <Link
-          to="https://jenkins.huynguyen-nginx.io.vn/"
+          to="https://dokku.com/"
           target="_blank"
         >
           <Card className="h-full">
@@ -141,7 +141,7 @@ export default function SectionOne() {
         </Link>
         {/* ===== CLOUDFLARE ===== */}
         <Link
-          to="https://jenkins.huynguyen-nginx.io.vn/"
+          to="https://www.cloudflare.com/"
           target="_blank"
         >
           <Card className="h-full">
