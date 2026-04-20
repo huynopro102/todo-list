@@ -4,8 +4,10 @@ import { useQuery } from "@tanstack/react-query"
 import { Loader2 } from "lucide-react"
 import { CategoryResponse, Categories, CategoriesSchema } from "../shema"
 import http from "@/utils/http"
-import { useSearchParams } from "react-router-dom"
+import { Link, useSearchParams } from "react-router-dom"
 import { useEffect } from "react"
+import Breadcrumbs from "@/pages/components/custom/breadcrumbs"
+import { Button } from "@/components/ui/button"
 
   const getCategories = (page: number | string, per_page: number | string) => {
 
@@ -51,6 +53,14 @@ export default function CategoryOverview() {
 
   return (
     <div className="container mx-auto py-10">
+      <div className="flex justify-between">
+        <Breadcrumbs />
+        <Link to={'/portal/categories/create'}>
+            <Button className="ml-2 mb-2 bg-blue-500 text-white hover:bg-blue-600 rounded-lg shadow">
+              New
+            </Button>
+        </Link>
+      </div>
       <DataTable
         columns={columns}
         data={Categories}
