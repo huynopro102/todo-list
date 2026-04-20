@@ -270,8 +270,6 @@ function SidebarContent({
           <Separator />
           <div className="p-4">
             <h2 className="text-sm font-semibold text-muted-foreground">
-              Tuanhuy16903@gmail.com
-              0344403943
             </h2>
           </div>
         </>
